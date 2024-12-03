@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+     <head> 
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>PortFolio website</title>
+          <link rel="stylesheet" href="general.css">
+     </head>
+     <body>
+           <header>
+               <div class="header-block left">Portfolio</div>
+               <nav class="header-block center">
+                   <ul>
+                       <li><a href="#accueil">Accueil</a></li>
+                       <li><a href="#apropos">À propos</a></li>
+                       <li><a href="#services">Services</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                   </ul>
+               </nav>
+               <div class="header-block right">Savoir Plus</div>
+           </header>
+
+            <main>
+                <hr>
+                <h1><b>Contact</b></h1>
+                <section class="content-section-contact">
+                    <div class="contact-container">
+                        <!-- Colonne gauche : Invitation -->
+                        <div class="contact-info">
+                          <p>Vous avez une question ou souhaitez collaborer ?<br>
+                            <br>Écrivez-nous vos messages pour vous répondre.<br></p>
+                        </div>
+                        <!-- Colonne droite : Formulaire -->
+                        <div class="contact-form">
+                          <form action="#" method="post">
+                             <label for="name">Nom</label>
+                             <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                             <label for="email">Courriel</label>
+                             <input type="email" id="email" name="email" placeholder="Votre adresse courriel" required>
+                             <label for="message">Message</label>
+                             <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                             <button type="submit">Envoyer le message</button>
+                          </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+          <footer>
+              <hr>
+              <h1><b>Retrouvez-moi ici</b></h1>
+              <div class="social-icones">
+                <img src="images/linked.png">
+                <img src="images/fb.jpg">    
+              </div>
+          </footer>
+     </body>
+</html>
